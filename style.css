@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #808da2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+/*Box Styling */
+.box {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ced3d9;
+    padding: 25px;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+h1 {
+    text-align: center;
+    /* margin-bottom: 5px; */
+    color: #0e0a0ada;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    color: #555555;
+}
+
+/* styling for each div in form*/
+.group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e4e6e8;
+    background-color: #e4e6e8 ;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Focus Effect */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #808da2;
+    outline: none;
+    background-color: #c2c8cf;
+}
+
+.group input[type="radio"] {
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    background-color: #5c80c3;
+    border: #5c80c3;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color:#4573c8 ;
+}
+
+a {
+    color: #3c5a92;
+    text-decoration: underline;
+}
+

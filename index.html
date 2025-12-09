@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Registration Form</h1>
+        <p>Please fill in the below details to complete the Registration</p>
+        <br>
+        <form action="" method="post">
+            <div class="group">
+                <label for="name">Name : </label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
+            </div>
+            <br>
+
+            <div class="group">
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <br>
+
+            <div class="group">
+                <label for="phno">Phone Number : </label>
+                <input type="tel" name="phno" id="phno" placeholder="eg:9876543210" required pattern="[0-9]{10}">
+            </div>
+            <br>
+
+            <div class="group">
+                <label for="dob">Date of Birth : </label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <br>
+
+
+            <div class="group">
+                <label for="add">Address : </label>
+                <textarea name="add" id="add" placeholder="Enter your full address" rows="3" required></textarea>
+            </div>
+            <br>
+
+
+            <div class="group">
+                <label for="age">Age : </label>
+                <input type="number" name="age" id="age" placeholder="Enter Your age" required>
+            </div>
+            <br>
+
+            <div class="group">
+                <label for="gender">Gender : </label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+            <br>
+
+            <div class="group">
+                <label for="dept">Department : </label>
+                <select name="dept" id="dept" required>
+                    <option value="" disabled selected>Select The Department</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="it">Information Technology</option>
+                    <option value="aids">AI and Data Science</option>
+                    <option value="aiml">AI and ML</option>
+                    <option value="ec">ECE</option>
+                    <option value="ee">EEE</option>
+                    <option value="mec">Mech</option>
+                    <option value="civ">Civil</option>
+                    <option value="cyb">Cyber</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="group">
+                <p>Please read the <a href="#">Terms and Conditions</a> before submission</p>
+                <label for="tac"> <input type="checkbox" required> I agree to the Terms and Conditions </label>
+            </div>
+            <br>
+
+            <div class="group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>   
+</body>
+</html>
