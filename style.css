@@ -18,6 +18,8 @@ body {
     padding: 25px;
     border-radius: 25px;
     border: 1px solid;
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -96,4 +98,60 @@ a {
     color: #3c5a92;
     text-decoration: underline;
 }
+
+/* Responsive Design */
+
+/* tablets */
+@media (max-width: 1000px) {
+    .box {
+        max-width: 60%;
+        padding: 20px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+/* mobile phones */
+@media (max-width: 600px) {
+
+    body {
+        padding: 5px;
+    }
+
+    .box {
+        max-width: 300px;
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input,
+    select,
+    textarea {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 12px;
+    }
+}
+
+
 
